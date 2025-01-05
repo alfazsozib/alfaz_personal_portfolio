@@ -15,7 +15,12 @@ function Projects() {
             <h1 className='text-3xl font-semibold leading-loose'>Projects</h1>
             <div className='flex justify-between  place-items-end'>
                 <p className='w-72'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla, ut! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab reiciendis totam iusto.</p>
-                <span className='pr-10'>More</span>
+                <div>
+                    <span className='pr-10'>All</span>
+                    <span className='pr-10'>Web Development</span>
+                    <span className='pr-10'>Web Scraper</span>
+                </div>
+                
             </div>
         </div>  
 
