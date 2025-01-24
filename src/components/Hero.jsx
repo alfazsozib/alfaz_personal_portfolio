@@ -3,7 +3,7 @@ import React from 'react'
 function Hero() {
   return (
 
-  <div className=''>
+  <div className='' id='home'>
     <div className='relative mt-20'>
       <h1 className='font-popins font-bold leading-[165px] text-[200px] text-white'>Websites& Scraper's </h1>
     </div>
