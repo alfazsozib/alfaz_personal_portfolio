@@ -31,7 +31,7 @@ function Projects() {
                     </div>
                 </div>
                 <div className=''>
-                    <img className='lg:w-[600px] lg:h-[400px] rounded-xl border-black border-2' src={data.projectImage} alt={data.projectName} />
+                    <img className='w-[0] lg:w-[600px] lg:h-[400px] rounded-xl border-black border-2' src={data.projectImage} alt={data.projectName} />
                 </div>
 
             </div>

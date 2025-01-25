@@ -22,13 +22,13 @@ function Layout() {
 
      {/* Other parts of the layout will go here  */}
 
-     <div className='container lg:px-5'>
+     <div className='container lg:px-5 px-5'>
         {/* Add your sections here */}
         <section id='testimonials' className='text-white lg:my-36'>
           <div className='testinmonials'>
             <h2 className='text-4xl leading-loose font-poppins font-bold'>Testimonials</h2>
            <div className='review-text-sec md:flex justify-between items-end'>
-                <p className='w-56 lg:w-2/4 text-lg lg:text-xl'><q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus similique deleniti dolorem, possimus natus, esse doloribus facere, quisquam distinctio iusto adipisci sunt. Dolores, delectus sunt. Vel blanditiis voluptates libero fugit Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil numquam harum quidem, aut aperiam nesciunt quibusdam nostrum doloremque ullam expedita!</q></p>
+                <p className=' w-96 lg:w-2/4 text-lg lg:text-xl'><q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus similique deleniti dolorem, possimus natus, esse doloribus facere, quisquam distinctio iusto adipisci sunt. Dolores, delectus sunt. Vel blanditiis voluptates libero fugit Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil numquam harum quidem, aut aperiam nesciunt quibusdam nostrum doloremque ullam expedita!</q></p>
                 <div className="client-name flex flex-col">
                     <span className='font-bold text-lg'>John Doe</span>
                     <span className='font-light text-md'>- CEO, Example.com</span>

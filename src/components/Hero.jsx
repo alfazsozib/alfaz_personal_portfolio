@@ -5,7 +5,7 @@ function Hero() {
 
   <div className='' id='home'>
     <div className='relative mt-20'>
-      <h1 className='font-popins font-bold leading-[165px] text-[200px] text-white'>Websites& Scraper's </h1>
+      <h1 className='font-popins font-bold leading-[165px] text-[100px] lg:text-[200px] text-white'>Websites& Scraper's </h1>
     </div>
     
     <div className='mt-20 text-white flex justify-between'>
