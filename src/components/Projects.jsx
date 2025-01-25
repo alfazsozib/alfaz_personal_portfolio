@@ -12,7 +12,7 @@ function Projects() {
         <div className='project-sec text-white'>
             <h1 className='text-4xl leading-loose font-poppins font-bold'>Projects</h1>
             <div className='flex justify-between  place-items-end'>
-                <p className='w-72'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla, ut! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab reiciendis totam iusto.</p>
+                <p className='w-96 text-lg lg:text-xl'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla, ut! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab reiciendis totam iusto.</p>
                 <div>
                     <span className='pr-10'>All</span>
                     <span className='pr-10'>Web Development</span>
@@ -22,11 +22,9 @@ function Projects() {
             </div>
         </div>  
 
+    {/* Card data  */}
         <div className='img-showcase my-16 lg:my-24'>
             {CardData.map((data,index)=>  
-          
-             
-            
             <div className={`card ${data.color}`} key={index} >
                 <div className='card-box text-white'>
                     <div>

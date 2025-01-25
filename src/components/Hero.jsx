@@ -9,11 +9,11 @@ function Hero() {
     </div>
     
     <div className='mt-20 text-white flex justify-between'>
-        <div className='callToAction  flex flex-col gap-2'>
+        <div className='callToAction lg:text-lg  flex flex-col gap-2'>
             <span className='font-bold'>Let's Talk</span>
             <span className=''>alfazsozib@gmail.com</span>
         </div> 
-        <div className='bio w-96 lg:mr-40'>
+        <div className='bio w-96 lg:mr-40 lg:text-lg '>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum nesciunt nisi nam quam odit. Modi dolores eos aliquid labore id.</p>
         </div>
     </div>

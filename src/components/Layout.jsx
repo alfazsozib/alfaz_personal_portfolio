@@ -5,15 +5,15 @@ import { MdArrowOutward } from "react-icons/md";
 function Layout() {
   return (
     <>
-    <div id='layout' className='my-16 w-full'>
+    <div id='layout' className='my-16 w-full relative'>
       <div className='h-16 flex justify-center items-center lg:h-24 bg-[#060606] text-[#292828e4]'>
-        <marquee className="font-poppins text-[2rem] lg:text-[6rem]" behavior="scroll" direction="left"
+        <marquee className="font-poppins text-[2rem] lg:text-[10rem]" behavior="scroll" direction="left"
         loop="infinite" scrollamount="12">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste, suscipit?Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, perferendis.
         </marquee>
       </div>
       <div className='h-16 flex mt-2 justify-center items-center lg:h-24 bg-[#060606] text-[#292828e4]'>
-      <marquee className="font-poppins text-[2rem] lg:text-[6rem]" behavior="scroll" direction="right"
+      <marquee className="absolute top-8 font-poppins text-[2rem] lg:text-[10rem]" behavior="scroll" direction="right"
         loop="infinite" scrollamount="12">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste, suscipit?Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, numquam!
         </marquee>
@@ -28,7 +28,7 @@ function Layout() {
           <div className='testinmonials'>
             <h2 className='text-4xl leading-loose font-poppins font-bold'>Testimonials</h2>
            <div className='review-text-sec md:flex justify-between items-end'>
-                <p className='w-56 lg:w-2/4 text-xl'><q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus similique deleniti dolorem, possimus natus, esse doloribus facere, quisquam distinctio iusto adipisci sunt. Dolores, delectus sunt. Vel blanditiis voluptates libero fugit Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil numquam harum quidem, aut aperiam nesciunt quibusdam nostrum doloremque ullam expedita!</q></p>
+                <p className='w-56 lg:w-2/4 text-lg lg:text-xl'><q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus similique deleniti dolorem, possimus natus, esse doloribus facere, quisquam distinctio iusto adipisci sunt. Dolores, delectus sunt. Vel blanditiis voluptates libero fugit Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil numquam harum quidem, aut aperiam nesciunt quibusdam nostrum doloremque ullam expedita!</q></p>
                 <div className="client-name flex flex-col">
                     <span className='font-bold text-lg'>John Doe</span>
                     <span className='font-light text-md'>- CEO, Example.com</span>
