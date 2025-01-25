@@ -1,10 +1,5 @@
 import React from 'react'
-import image1 from '../assets/images/image1.jpg'
-import image2 from '../assets/images/image2.jpg'
-import { Parallax } from 'react-parallax'
 import { CardData } from '../data/CardData'
-import Iframe from 'react-iframe'
-
 
 function Projects() {
   return (
