@@ -22,7 +22,7 @@ function Layout() {
 
      {/* Other parts of the layout will go here  */}
 
-     <div className='container'>
+     <div className='container lg:px-5'>
         {/* Add your sections here */}
         <section id='testimonials' className='text-white my-12'>
           <div className='testinmonials'>

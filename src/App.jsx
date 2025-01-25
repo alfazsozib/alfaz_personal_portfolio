@@ -8,7 +8,7 @@ function App() {
   
   return (
     <>
-    <div className='container' >
+    <div className='container lg:px-5' >
         <Nav />
         <Hero />
         <Projects />

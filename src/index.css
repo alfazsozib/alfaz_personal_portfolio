@@ -33,20 +33,30 @@ body{
 }
 
 .img-showcase{
-    gap: 20px;
+    /* width: 100%; */
+    position: relative;
 }
 
-.card > img{
-    width: 600px;
+.card{
+    /* width: 100%; */
+    padding: 25px;
+    display: flex;
+    border-radius: 10px;
+    margin-top: 70px;
+    position: sticky;
+    top: 20%;
 }
 
-.card-info{
-    color: white;
+.card-box{
     display: flex;
     flex-direction: column;
-    margin-top: 8px;
+    gap: 16px;
 }
 
-.card-info > .name{
-    font-weight: 600;
+img {
+    max-width: fit-content;
 }
+
+
+
+
