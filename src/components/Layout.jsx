@@ -5,7 +5,7 @@ import { MdArrowOutward } from "react-icons/md";
 function Layout() {
   return (
     <>
-    <div id='layout' className='my-16 w-full relative'>
+    <div id='layout' className='lg:my-36 w-full relative'>
       <div className='h-16 flex justify-center items-center lg:h-24 bg-[#060606] text-[#292828e4]'>
         <marquee className="font-poppins text-[2rem] lg:text-[10rem]" behavior="scroll" direction="left"
         loop="infinite" scrollamount="12">
@@ -24,7 +24,7 @@ function Layout() {
 
      <div className='container lg:px-5'>
         {/* Add your sections here */}
-        <section id='testimonials' className='text-white my-12'>
+        <section id='testimonials' className='text-white lg:my-36'>
           <div className='testinmonials'>
             <h2 className='text-4xl leading-loose font-poppins font-bold'>Testimonials</h2>
            <div className='review-text-sec md:flex justify-between items-end'>

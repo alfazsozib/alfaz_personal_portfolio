@@ -8,10 +8,10 @@ function Projects() {
             <h1 className='text-4xl leading-loose font-poppins font-bold'>Projects</h1>
             <div className='flex justify-between  place-items-end'>
                 <p className='w-96 text-lg lg:text-xl'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla, ut! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab reiciendis totam iusto.</p>
-                <div>
-                    <span className='pr-10'>All</span>
-                    <span className='pr-10'>Web Development</span>
-                    <span className='pr-10'>Web Scraper</span>
+                <div className='lg:text-xl font-bold'>
+                    <span className='pr-10 cursor-pointer hover:text-[#373636]'>All</span>
+                    <span className='pr-10 cursor-pointer hover:text-[#373636]'>Web Development</span>
+                    <span className='pr-10 cursor-pointer hover:text-[#373636]'>Web Scraper</span>
                 </div>
                 
             </div>
