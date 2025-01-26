@@ -14,7 +14,10 @@ function Hero() {
             <span className=''>alfazsozib@gmail.com</span>
         </div> 
         <div className='bio w-96 lg:mr-40 lg:text-lg '>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum nesciunt nisi nam quam odit. Modi dolores eos aliquid labore id.</p>
+          <p> <span className='font-bold'> MD Alfaz Hosain </span><br />
+          <span className='text-sm font-semibold'> MERN Stack Developer | Python Web Scraper Expert</span>
+          <br /><br />
+          I specialize in creating modern web applications and landing pages with the MERN stack, along with developing custom web scrapers using Python. Passionate about innovation, I deliver efficient, user-focused solutions.</p>
         </div>
     </div>
   </div>
