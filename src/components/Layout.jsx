@@ -29,7 +29,7 @@ function Layout() {
           
           <div className='testinmonials'>
             <h2 className='text-4xl leading-loose font-poppins font-bold'>Testimonials</h2>
-            <Carousel autoPlay={true} infiniteLoop={true} interval={5000} useKeyboardArrows={true} showStatus={false}>
+            <Carousel showThumbs={false} autoPlay={true} infiniteLoop={true} interval={5000} useKeyboardArrows={true} showStatus={false}>
            <div className='review-text-sec md:flex justify-between relative'>
                 <p className='text-left w-96 min-h-48 lg:w-2/4 text-lg lg:text-xl'><q>i have worked with Alfaz on a number of projects and he always delivers top-class output. He goes above and beyond and I would highly recommend using him for any work required,</q></p>
                 <div className="client-name flex flex-col absolute bottom-2 right-4">

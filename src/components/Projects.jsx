@@ -2,6 +2,7 @@ import React from 'react'
 import { CardData } from '../data/CardData'
 
 function Projects() {
+
   return (
     <div className='mt-16 lg:mt-32 relative' id='project'>
         <div className='project-sec text-white'>
@@ -30,8 +31,10 @@ function Projects() {
                         <p>{data.projectDescription}</p>
                     </div>
                 </div>
+                <img id={`show-image-${data.id}`}  className='hidden' />
                 <div className=''>
-                    <img className='w-[0] lg:w-[600px] lg:h-[400px] rounded-xl border-black border-2' src={data.projectImage} alt={data.projectName} />
+                    <img id={`target-image-${data.id}`}
+                     className='w-[0] lg:w-[600px] lg:h-[400px] rounded-xl hover:scale-110 border-black border-2' src={data.projectImage} alt={data.projectName} />
                 </div>
 
             </div>
