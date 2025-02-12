@@ -5,7 +5,7 @@ function Projects() {
 
   return (
     <div className='mt-16 lg:mt-32 relative' id='project'>
-        <div className='project-sec text-white'>
+        {/* <div className='project-sec text-white'>
             <h1 className='text-4xl leading-loose font-poppins font-bold'>Projects</h1>
             <div className='flex justify-between  place-items-end'>
                 <p className='lg:w-[550px] text-lg lg:text-xl'>Over the years, I have worked on a variety of projects, ranging from dynamic web applications and functional landing pages to custom web scrapers. Working with clients and taking on practice projects has helped me tackle unique challenges and continually deliver better solutions.</p>
@@ -16,7 +16,7 @@ function Projects() {
                 </div>
                 
             </div>
-        </div>  
+        </div>   */}
 
     {/* Card data  */}
         <div className='img-showcase my-16 lg:my-24'>

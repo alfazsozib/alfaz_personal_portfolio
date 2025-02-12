@@ -7,13 +7,13 @@ function Layout() {
   return (
     <>
     <div id='layout' className='lg:my-36 w-full relative'>
-      <div className='h-16 flex justify-center items-center lg:h-24 bg-[#060606] text-[#292828e4]'>
+      <div className='h-16 flex justify-center items-center lg:h-24 text-[#FD6F65]'>
         <marquee className="font-poppins text-[2rem] lg:text-[10rem]" behavior="scroll" direction="left"
         loop="infinite" scrollamount="12">
           Web Development, Landing Pages, and Scraping Solutions. Custom designs, seamless builds, and tailored results!
         </marquee>
       </div>
-      <div className='h-16 flex mt-2 justify-center items-center lg:h-24 bg-[#060606] text-[#292828e4]'>
+      <div className='h-16 flex mt-2 justify-center items-center lg:h-24 text-[#FD6F65]'>
       <marquee className="absolute top-8 font-poppins text-[2rem] lg:text-[10rem]" behavior="scroll" direction="right"
         loop="infinite" scrollamount="12">
           Web Development, Landing Pages, and Scraping Solutions. Custom designs, seamless builds, and tailored results!
@@ -76,7 +76,7 @@ function Layout() {
                 <h1 className='font-poppins md:text-[150px]'>Let's talk</h1>
                 <div className='flex justify-center'>
                     <a href="mailto:alfazsozib@gmail.com">
-                    <button hre className='bg-[#141414] hover:bg-[#010101] px-8 py-4 rounded-full text-lg font-semibold cursor-pointer flex items-center justify-center gap-2'>alfazsozib@gmail.com <MdArrowOutward /></button>
+                    <button hre className='bg-[#FD6F65] hover:bg-[#e55a50] px-8 py-4 rounded-full text-lg font-semibold cursor-pointer flex items-center justify-center gap-2'>alfazsozib@gmail.com <MdArrowOutward /></button>
                     </a>
                 </div>
                 
