@@ -10,7 +10,7 @@ module.exports = {
       'nav-text':'#C4C4C4',
     },
     fontFamily: {
-      'poppins':['Poppins','serif']
+      'Poppins':['Poppins','sans-serif']
     },
   },
   },

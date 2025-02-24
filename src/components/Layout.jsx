@@ -8,13 +8,13 @@ function Layout() {
     <>
     <div id='layout' className='lg:my-36 w-full relative'>
       <div className='h-16 flex justify-center items-center lg:h-24 text-[#FD6F65]'>
-        <marquee className="font-poppins text-[2rem] lg:text-[10rem]" behavior="scroll" direction="left"
+        <marquee className="font-Poppins text-[2rem] lg:text-[10rem]" behavior="scroll" direction="left"
         loop="infinite" scrollamount="12">
           Web Development, Landing Pages, and Scraping Solutions. Custom designs, seamless builds, and tailored results!
         </marquee>
       </div>
       <div className='h-16 flex mt-2 justify-center items-center lg:h-24 text-[#FD6F65]'>
-      <marquee className="absolute top-8 font-poppins text-[2rem] lg:text-[10rem]" behavior="scroll" direction="right"
+      <marquee className="absolute top-8 font-Poppins text-[2rem] lg:text-[10rem]" behavior="scroll" direction="right"
         loop="infinite" scrollamount="12">
           Web Development, Landing Pages, and Scraping Solutions. Custom designs, seamless builds, and tailored results!
         </marquee>
@@ -28,7 +28,7 @@ function Layout() {
         <section id='testimonials' className='text-white lg:my-36'>
           
           <div className='testinmonials'>
-            <h2 className='text-4xl leading-loose font-poppins font-bold'>Testimonials</h2>
+            <h2 className='text-4xl leading-loose font-Poppins font-bold'>Testimonials</h2>
             <Carousel showThumbs={false} autoPlay={true} infiniteLoop={true} interval={5000} useKeyboardArrows={true} showStatus={false}>
            <div className='review-text-sec md:flex justify-between relative'>
                 <p className='text-left w-96 min-h-48 lg:w-2/4 text-lg lg:text-xl'><q>i have worked with Alfaz on a number of projects and he always delivers top-class output. He goes above and beyond and I would highly recommend using him for any work required,</q></p>
@@ -73,7 +73,7 @@ function Layout() {
 
         <section id='contact' className='my-24 flex justify-center'>
             <div className='contact text-white flex flex-col gap-2'>
-                <h1 className='font-poppins md:text-[150px]'>Let's talk</h1>
+                <h1 className='font-Poppins md:text-[150px]'>Let's talk</h1>
                 <div className='flex justify-center'>
                     <a href="mailto:alfazsozib@gmail.com">
                     <button hre className='bg-[#FD6F65] hover:bg-[#e55a50] px-8 py-4 rounded-full text-lg font-semibold cursor-pointer flex items-center justify-center gap-2'>alfazsozib@gmail.com <MdArrowOutward /></button>
