@@ -1,7 +1,11 @@
 import React from 'react'
 import { FaRegCopy } from "react-icons/fa6";
-import { IoLogoBitbucket } from "react-icons/io";
 import cv from "../assets/Alfaz_CV.pdf";
+import { SiFiverr } from "react-icons/si";
+import { SiFreelancer } from "react-icons/si";
+import { FaUpwork } from "react-icons/fa6";
+import Marquee from "react-fast-marquee";
+import hooverLogo from "../assets/images/hoover.png"
 
 function Hero() {
 
@@ -40,12 +44,13 @@ function Hero() {
           <span><FaRegCopy size={15} /></span> E-mail
         </button>
       </div>
-      <div className='flex w-full justify-evenly  mt-24'>
-        <IoLogoBitbucket color='#5E686D' size={50}/>
-        <IoLogoBitbucket color='#5E686D' size={50}/>
-        <IoLogoBitbucket color='#5E686D' size={50}/>
-        <IoLogoBitbucket color='#5E686D' size={50}/>
-        <IoLogoBitbucket color='#5E686D' size={50}/>
+      <div className='flex w-full lg:w-1/2 lg:justify-around justify-between mt-24 items-center px-12'>
+        {/* <Marquee className='flex gap-16'> */}
+          <SiFiverr className='' color='white' size={80}/>
+          <FaUpwork className='' color='white' size={60}/>
+          <SiFreelancer className='' color='white' size={60}/>
+          <img width={80} src={hooverLogo} alt="" className="grayscale-50" />        
+          {/* </Marquee> */}
       </div>
     </div>
 
