@@ -17,17 +17,17 @@ function Experience() {
                     Passionate about technology and innovation, I’m dedicated to delivering efficient, scalable, and user-centric solutions that help businesses grow and achieve their goals.
                     </p>
 
-                    <div className='mt-12 flex justify-between'>
+                    <div className='mt-12 flex lg:justify-between justify-around'>
                         <div className='flex flex-col lg:gap-6 gap-4 text-[#FD6F65]'>
-                            <h1 className='lg:text-[65px] leading-5 font-bold'>30+</h1>
+                            <h1 className='lg:text-[65px] text-[30px] leading-5 font-bold'>30+</h1>
                             <p className='lg:text-[16px] leading-5'>Projects <br /> Completed</p>
                         </div>
                         <div className='flex flex-col lg:gap-6 gap-4  text-[#FD6F65]'>
-                            <h1 className='lg:text-[65px] leading-5 font-bold'>15+</h1>
+                            <h1 className='lg:text-[65px] text-[30px] leading-5 font-bold '>15+</h1>
                             <p className='lg:text-[16px] leading-5'>Satisfied <br /> Client's</p>
                         </div>
                         <div className='flex flex-col lg:gap-6 gap-4  text-[#FD6F65]'>
-                            <h1 className='lg:text-[65px] leading-5 font-bold'>50+</h1>
+                            <h1 className='lg:text-[65px] text-[30px] leading-5 font-bold'>50+</h1>
                             <p className='lg:text-[16px] leading-5'>Positive <br /> Reviews</p>
                         </div>
                     </div>
