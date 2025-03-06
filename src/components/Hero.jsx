@@ -44,7 +44,7 @@ function Hero() {
           <span><FaRegCopy size={15} /></span> E-mail
         </button>
       </div>
-      <div className='flex w-full lg:w-1/2 lg:justify-around justify-between mt-24 items-center px-12'>
+      <div className='flex w-full lg:w-1/2 lg:justify-around justify-between mt-24 items-center lg:px-12 px-4'>
         {/* <Marquee className='flex gap-16'> */}
           <SiFiverr className='' color='white' size={80}/>
           <FaUpwork className='' color='white' size={60}/>
