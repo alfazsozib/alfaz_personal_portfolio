@@ -8,7 +8,7 @@ function Experience() {
             </div>
             <div className='w-full grid grid-cols-1 lg:grid-cols-2 gap-12 mt-12'>
                 <div>
-                    <p className='lg:text-xl text-gray-300'>I'm MD Alfaz Hosain, a MERN Stack Developer <br /> and Python Web Scraper Expert.</p>
+                    <p className='lg:text-xl text-gray-300'>I'm MD Alfaz Hosain, a MERN Stack Developer and Python Web Scraper Expert, currently studying CSE at Varendra University. I love coding, learning new technologies, and turning ideas into reality.</p>
                 </div>
 
                 <div className='lg:w-96 lg:mr-40 lg:text-xl text-gray-300'>
