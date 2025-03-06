@@ -33,23 +33,23 @@ function Nav() {
         <div className='navbar'>
           <ul className='flex items-center border p-2 border-[#FD6F65] text-nav-text font rounded-full text-lg'>
             <img
-              className='w-14 lg:mr-20 rounded-full'
+              className='w-14 lg:mr-20 rounded-full hover:scale-110 transform transition-transform duration-300 ease-in-out'
               width={90}
               height={90}
               src={personImage}
               alt='profile image'
             />
-            <div className='flex lg:gap-8 items-center'>
-              <li className='hovEffect rounded-full'>
+            <div className='flex lg:gap-8 items-center font-Poppins'>
+              <li className='hovEffect rounded-full px-4 py-2'>
                 <a href='#home'>Home</a>
               </li>
-              <li className='hovEffect rounded-full'>
+              <li className='hovEffect rounded-full px-4 py-2'>
                 <a href='#project'>Projects</a>
               </li>
-              <li className='hovEffect rounded-full'>
+              <li className='hovEffect rounded-full px-4 py-2'>
                 <a href='#about'>About</a>
               </li>
-              <li className='hovEffect rounded-full bg-[#FD6F65] px-8 py-2'>
+              <li className='hovEffect text-white rounded-full bg-[#FD6F65] px-8 py-2'>
                 <a href='#contact'>Contact</a>
               </li>
             </div>
@@ -74,17 +74,17 @@ function Nav() {
         {/* Mobile Navigation Links */}
         <div className='flex flex-col items-center justify-center h-full'>
           <ul className='text-white text-center space-y-6'>
-            <li className='hovEffect rounded-full'>
+            <li className='hovEffect rounded-full px-4 py-2'>
               <a href='#home' onClick={toggleMobileNav}>
                 Home
               </a>
             </li>
-            <li className='hovEffect rounded-full'>
+            <li className='hovEffect rounded-full px-4 py-2'>
               <a href='#project' onClick={toggleMobileNav}>
                 Projects
               </a>
             </li>
-            <li className='hovEffect rounded-full'>
+            <li className='hovEffect rounded-full px-4 py-2'>
               <a href='#about' onClick={toggleMobileNav}>
                 About
               </a>
