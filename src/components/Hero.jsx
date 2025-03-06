@@ -9,8 +9,8 @@ function Hero() {
   <div className='text-center' id='home'>
     <div className='relative flex items-center flex-col mt-20'>
       <p className='text-gray-400 text-[17px] mb-4'>Hello there 👋 I'm Alfaz Hosain</p>
-      <h1 className='font-popins font-bold lg:leading-[145px] text-[100px] lg:text-[150px] text-white uppercase'>I Build Website & Scraper's </h1>
-      <p className='text-[#d4d4d4] text-center text-[17px] mt-8'>Get fast, effective MERN Stack development and Python scraping tailored <br /> to your goals. Focused on delivering measurable results.</p>
+      <h1 className='font-popins font-bold lg:leading-[145px] text-[60px] lg:text-[150px] text-white uppercase'>I Build Website & Scraper's </h1>
+      <p className='text-[#d4d4d4] text-center lg:text-[17px] mt-8'>Get fast, effective MERN Stack development and Python scraping tailored <br /> to your goals. Focused on delivering measurable results.</p>
       <div className='flex gap-4 mt-8'>
         <button className='text-white px-8 py-2 bg-red-400 rounded-full'>About</button>
         <button className='text-white px-8 py-2 rounded-full border flex items-center justify-center gap-2'><span><FaRegCopy size={15}/></span> E-mail</button>
